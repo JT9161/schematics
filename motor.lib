@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3  Date: Fri 03 Jan 2014 04:32:45 PM PST
+#encoding utf-8
+#
+# MOTOR
+#
+DEF MOTOR M 0 40 Y Y 1 F N
+F0 "M" 0 -250 60 H V C CNN
+F1 "MOTOR" 0 250 60 H V C CNN
+$FPLIST
+ motor
+$ENDFPLIST
+DRAW
+T 0 0 0 150 0 0 0 M  Normal 1 C C
+C 0 0 200 0 1 0 N
+X + 1 -250 0 50 R 0 50 1 1 P
+X - 2 250 0 50 L 0 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

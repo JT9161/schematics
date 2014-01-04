@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3  Date: Fri 03 Jan 2014 04:45:00 PM PST
+#encoding utf-8
+#
+# PHOTOVOLT
+#
+DEF PHOTOVOLT PV 0 0 Y Y 1 F N
+F0 "PV" 0 200 50 H V C CNN
+F1 "PHOTOVOLT" 0 -190 50 H V C CNN
+DRAW
+C 0 0 150 0 1 6 N
+P 2 0 1 0  -50 0  -150 0 N
+P 2 0 1 6  -50 90  -50 -89 N
+P 2 0 1 0  50 0  150 0 N
+P 2 0 1 6  50 50  50 -50 N
+P 3 0 1 0  -300 -200  -200 -100  -250 -100 N
+P 3 0 1 0  -300 -150  -200 -50  -250 -50 N
+X + ~ -300 0 150 R 50 50 1 1 P
+X - ~ 300 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
